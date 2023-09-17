@@ -1,5 +1,5 @@
-const mongoose = require("mongoose");
-const offerSchema = require('./Offer');
+import mongoose from 'mongoose';
+import { offerSchema } from './Offer';
 
 const { Schema } = mongoose;
 
@@ -34,4 +34,4 @@ const Realtor = mongoose.model(
   realtorSchema,
 );
 
-module.exports = Realtor;
+export default Realtor;
