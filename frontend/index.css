@@ -1,0 +1,96 @@
+/* Color Theme Swatches in Hex */
+.Manaus-aerial-view-at-night.-Top-view-on-modern-city-with-street-lights-1-hex { color: #0F1D26; }
+.Manaus-aerial-view-at-night.-Top-view-on-modern-city-with-street-lights-2-hex { color: #D9998B; }
+.Manaus-aerial-view-at-night.-Top-view-on-modern-city-with-street-lights-3-hex { color: #A6635D; }
+.Manaus-aerial-view-at-night.-Top-view-on-modern-city-with-street-lights-4-hex { color: #F2BFBB; }
+.Manaus-aerial-view-at-night.-Top-view-on-modern-city-with-street-lights-5-hex { color: #593232; }
+
+:root{
+  --font-primary: "Pacifico", Serif;
+  --font-alternative: "Courier New";
+  --color-primary: #0F1D26
+}
+
+header {
+  background: var(--color-primary);
+  position: fixed;
+  height: 48px;
+
+  /*Centralizar horizontal e vertical*/
+  display:flex !important;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-title {
+  color: white,
+  font-family: var(--font-primary);
+  font-size: 18px;
+}
+
+.footer-container{
+  background: var(--color-primary);
+  height: 48px;
+  color: white;
+  margin-top: 10em;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+main{
+  padding-top: 100px;
+}
+
+/* Estilização de Formulário */
+.add-post-container {
+  max-width: 700px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.add-post-title {
+  margin: 15px;
+}
+
+.add-post-body {
+  margin: 15px;
+}
+
+.add-post-button {
+  margin: 15px;
+  width: 100px;
+}
+
+/* Estilização POST */
+.blog-post-container {
+  width: 100%;
+  box-shadow: 0px 0px 10px 0.01px rgba(50, 50, 50, 0.1);
+  padding: 2em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.blog-post-title {
+  padding-left: 1em;
+  font-family: var(--font-alternative);
+  font-weight: bold;
+  color: var(--color-primary);
+  font-size: 1.5em;
+}
+
+.blog-post-body {
+  padding: 1em;
+}
+
+.blog-post-image {
+  height: 100%;
+  width: 100;
+}
+
+.blog-post-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
