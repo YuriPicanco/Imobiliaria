@@ -6,7 +6,6 @@ async function connect() {
         console.log("[INFO]: Conectado ao banco de dados");
     }catch(err){
         console.log("[ERRO]: Banco não conectado, encerrando aplicação.");
-        process.exit(1);
     }
 }
 
